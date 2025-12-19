@@ -1001,3 +1001,122 @@ a:focus {
   }
 }
 
+
+
+
+
+
+
+/* ===== Careers Page Styling ===== */
+
+.career-hero {
+  text-align: center;
+  padding: 80px 20px 50px;
+  background: linear-gradient(
+    rgba(21,82,99,0.85),
+    rgba(21,82,99,0.85)
+  ),
+  url("../images/slider-bg.jpg") center/cover no-repeat;
+  color: #ffffff;
+}
+
+.career-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.career-hero p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Form section */
+.career-form-section {
+  padding: 70px 20px;
+  background-color: #f7f9fb;
+}
+
+.career-form-container {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+/* Fieldsets */
+.career-form-container fieldset {
+  border: none;
+  margin-bottom: 35px;
+}
+
+.career-form-container legend {
+  font-size: 18px;
+  font-weight: 600;
+  color: #155263;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.career-form-container input[type="text"],
+.career-form-container input[type="email"],
+.career-form-container input[type="tel"],
+.career-form-container input[type="date"],
+.career-form-container input[type="file"] {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+}
+
+.career-form-container label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Two column layout */
+.two-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Submit button */
+.career-form-container input[type="submit"] {
+  background: linear-gradient(135deg, #155263, #2bb673);
+  color: #ffffff;
+  border: none;
+  padding: 14px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.career-form-container input[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .two-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .career-hero h1 {
+    font-size: 32px;
+  }
+}
+
+
+
+
+
+
