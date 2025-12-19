@@ -77,4 +77,11 @@
   .container {
     max-width: 1170px;
   }
+
+}
+
+@media (max-width: 767px) {
+  .hero-logo img {
+    width: 110px;
+  }
 }
